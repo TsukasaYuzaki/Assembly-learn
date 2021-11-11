@@ -25,3 +25,6 @@ j. uint32_t isEven(uint32_t x) // returns 1 if even, 0 if not even
 k. uint32_t maxU32(uint32_t x, uint32_t y) // returns the maximum of x, y
 
 l. int32_t maxS32(int32_t x, int32_t y) // returns the maximum of x, y
+
+
+![alt_text](https://i.imgur.com/km2o5yX.png)
