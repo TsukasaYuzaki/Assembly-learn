@@ -28,3 +28,6 @@ l. int32_t maxS32(int32_t x, int32_t y) // returns the maximum of x, y
 
 
 ![alt_text](https://i.imgur.com/km2o5yX.png)
+
+
+-setb: set if below, use after cmp Ex: setb al set al to 1
