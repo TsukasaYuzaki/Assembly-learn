@@ -31,3 +31,16 @@ l. int32_t maxS32(int32_t x, int32_t y) // returns the maximum of x, y
 
 
 -setb: set if below, use after cmp Ex: setb al set al to 1
+
+pshufb:
+SHUFFLE =  0x000D0C0A08040F030E090B0501070602
+s1 = [BitVec("x%i" % i, 8) for i in range(16)]
+s2 = []
+
+for i in range(16):
+	idx = (SHUFFLE >> (i * 8)) & 255
+	s2.append(s1[idx])
+  
+ s1: create x1, x2, x3...
+ s2: create the pshufb version of s1
+
