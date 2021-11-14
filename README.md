@@ -43,4 +43,7 @@ for i in range(16):
   
  s1: create x1, x2, x3...
  s2: create the pshufb version of s1
+ 
+ 
+ ![alt_text](https://i.imgur.com/gz5CRqJ.png)
 
