@@ -1,20 +1,17 @@
-
-
+# not
 Not: inverts the bit
 not
 rax = 11111
 not rax
 => rax - 00000
 
-
-
-Xor 
+# Xor 
 a = 101
 b = 110
 xor a, b
 a = 010
 
-
+# and
 and: opposite from xor
 a = 110
 b = 101
