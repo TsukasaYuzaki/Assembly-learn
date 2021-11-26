@@ -1,3 +1,14 @@
+* EAX - Accumulator Register
+* EBX - Base Register
+* ECX - Counter Register
+* EDX - Data Register
+* ESI - Source Index
+* EDI - Destination Index
+* EBP - Base Pointer
+* ESP - Stack Pointer
+
+
+
 # Data Registers
 Four 32-bit data registers are used for arithmetic, logical, and other operations. These 32-bit registers can be used in three ways −
 
